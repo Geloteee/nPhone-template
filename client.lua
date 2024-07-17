@@ -21,6 +21,6 @@ local CreateApp = function ()
     end
 end
 
-AddEventHandler('onPhoneIsReady', function(resourceName)
+AddEventHandler('onPhoneIsReady', function()
     CreateApp()
 end)
